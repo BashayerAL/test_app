@@ -1,0 +1,102 @@
+﻿
+.mGrid {
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+
+    .mGrid td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+    }
+
+    .mGrid th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #424242 url(grd_head.png) repeat-x top;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+    }
+
+    .mGrid .alt {
+        background: #fcfcfc url(grd_alt.png) repeat-x top;
+        height: 30px;
+        color: #717171;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .mGrid .pgr {
+        background: #424242 url(grd_pgr.png) repeat-x top;
+    }
+
+        .mGrid .pgr table {
+            margin: 5px 0;
+        }
+
+        .mGrid .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #666;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .mGrid .pgr a {
+            color: #666;
+            text-decoration: none;
+        }
+
+            .mGrid .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+    .mGrid .rowgrid {
+        color: #717171;
+        font-size: medium;
+        height: 30px;
+        text-align: center;
+    }
+
+    .mGrid .alt:hover {
+        background: #717171 url(grd_pgr.png) repeat-x top;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .mGrid .rowgrid:hover {
+        background: #717171 url(grd_pgr.png) repeat-x top;
+        color: #fff;
+        cursor: pointer;
+    }
+
+
+.rownew {
+    color: #0026ff;
+    font-size: small;
+    height: 30px;
+    font-weight: bold;
+}
+
+    .rownew:hover {
+        background: #424242 url(grd_pgr.png) repeat-x top;
+        color: #fff;
+        cursor: pointer;
+    }
+
+.Title_Offer {
+    margin-top: 20px;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 0 0 4px 0 #DCDCC6;
+    margin-right: 10px;
+    text-align: center;
+    max-height: 230px;
+    width: 220px;
+    color: #ff7e00;
+    text-shadow: 0 1px 0 #FC9;
+    padding-bottom: 1px;
+}
